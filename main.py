@@ -10,13 +10,13 @@ def main():
     root.title("Image water marker")
     root.geometry("400x200")
 
-    open_btn = Button(root, text="Select image", command=select_image)
+    open_btn = Button(root, text="Select image", command=save_image)
     open_btn.place(relx=0.5, rely=0.5, anchor=CENTER)
 
     root.mainloop()
 
 
-def select_image():
+def save_image():
     file_name = filedialog.askopenfilename(initialdir="/Pictures", title="Select image",
                                            filetypes=(("jpeg files", "*.jpg"), ("all files", "*.*")))
     image = Image.open(file_name)
