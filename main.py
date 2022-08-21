@@ -1,10 +1,12 @@
 from tkinter import *
 from PIL import Image, ImageDraw, ImageFont
 from tkinter import filedialog
+import random
+
+root = Tk()
 
 
 def main():
-    root = Tk()
     root.title("Image water marker")
     root.geometry("400x200")
 
@@ -21,15 +23,16 @@ def select_image():
 
     x = image.width
     y = image.height
-    print(x)
-    print(y)
 
     new_img = ImageDraw.Draw(image)
 
-    myFont = ImageFont.truetype('PermanentMarker-Regular.ttf', 20)
+    my_font = ImageFont.truetype('PermanentMarker-Regular.ttf', 25)
 
-    new_img.text((x - 150, y - 50), "Lasantha", font=myFont, fill=(255, 0, 0))
-    image.show()
+    new_img.text((x - 150, y - 50), "Lasantha", font=my_font, fill=(255, 255, 255))
+
+    serial_num = random.randint(1000, 9999)
+
+    image.save(f"watermark_image {serial_num}.jpg")
 
 
 main()
