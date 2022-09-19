@@ -43,5 +43,4 @@ def save_image():
     image.save(f"watermark_image {serial_num}.jpg")
 
 
-if __name__ == "__main__":
-    main()
+main()
