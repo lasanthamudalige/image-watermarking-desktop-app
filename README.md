@@ -6,4 +6,4 @@ After opening an image the program is going to save the image with the watermark
 <h3>Before</h3>
 <img src="https://user-images.githubusercontent.com/91461938/190950590-b62fc892-5f8d-449d-863c-2791ed748830.png">
 <h3>After opening a image</h3>
-<img src="https://user-images.githubusercontent.com/91461938/192096664-fa0e6b1a-5e41-4faf-86c8-511f3a0ab29b.png">
+<img src="https://user-images.githubusercontent.com/91461938/192096751-2e30c60f-ebcb-4a61-bc34-13e45d2d513c.jpg">
