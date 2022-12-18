@@ -7,7 +7,7 @@ root = Tk()
 
 
 def main():
-    root.title("Image water marker")
+    root.title("Watermarkify")
     root.geometry("400x200")
 
     # create a button in the window to open an image to watermark
