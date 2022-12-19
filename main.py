@@ -42,5 +42,7 @@ def save_image():
     # save the image with the generated random number
     image.save(f"watermark_image {serial_num}.jpg")
 
+    print("Image saved successfully")
+
 
 main()
