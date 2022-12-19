@@ -1,7 +1,5 @@
 # Watermarkify
 
-Image watermarking program using Python and Pillow 
-
 Type speed testing program using [Python](https://www.python.org/) and [Pillow](https://python-pillow.org/) library.
 
 ## Table of contents
@@ -11,7 +9,7 @@ Type speed testing program using [Python](https://www.python.org/) and [Pillow](
 * [Usage](#usage)
 
 ## General info
-Using start button user can start to type top paragraph and after the countdown it will show how many words and characters user typed. 
+This user can add a watermark to the right bottom corner of an image using this program.
 
 ## Technologies
 Project is created with:
