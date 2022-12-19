@@ -1,11 +1,53 @@
 # Watermarkify
 
-Image watermarking app using PIL and tkinter
+Image watermarking program using Python and Pillow 
 
-## Description:
+Type speed testing program using [Python](https://www.python.org/) and [Pillow](https://python-pillow.org/) library.
 
-When user select an image the program will duplicate and saved the same image in the local folder with the watermark text.
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Usage](#usage)
 
-### Preview:
+## General info
+Using start button user can start to type top paragraph and after the countdown it will show how many words and characters user typed. 
 
-![192096751-2e30c60f-ebcb-4a61-bc34-13e45d2d513c](https://user-images.githubusercontent.com/91461938/208295746-788c6b72-5638-44fd-8384-1184ff5b4e07.jpg)
+## Technologies
+Project is created with:
+* Python version: 3.10.6
+* Pillow version: 9.0.1
+	
+## Setup
+
+To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer.\
+From your command line run:
+
+```
+# Clone this repository
+$ git clone https://github.com/lasanthamudalige/image-watermarking-desktop-app.git
+
+# Go into the repository
+$ cd image-watermarking-desktop-app/
+
+# To install all dependencies
+$ pip install -r requirements.txt
+```
+
+
+## Usage
+
+To run this project in Linux/Unix:
+
+```
+$ python3 main.py
+```
+
+To run this project in Windows:
+
+```
+$ python main.py
+```
+
+## License 
+This project is open source and available under the [MIT License](https://github.com/lasanthamudalige/automate-github-repo-creation/blob/main/LICENSE).
