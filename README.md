@@ -32,6 +32,11 @@ $ cd image-watermarking-desktop-app/
 $ pip install -r requirements.txt
 ```
 
+If u are on Linux please install python3-tk using:
+
+```
+$ sudo apt install python3-tk
+```
 
 ## Usage
 
