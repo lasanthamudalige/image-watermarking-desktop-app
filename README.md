@@ -9,7 +9,7 @@ Type speed testing program using [Python](https://www.python.org/) and [Pillow](
 * [Usage](#usage)
 
 ## General info
-This user can add a watermark to the right bottom corner of an image using this program.
+Using this program user can add a watermark to the right bottom corner of an image using this program.
 
 ## Technologies
 Project is created with:
