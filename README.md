@@ -53,4 +53,4 @@ $ python main.py
 ```
 
 ## License 
-This project is open source and available under the [MIT License](https://github.com/lasanthamudalige/image-watermarking-desktop-app/blob/main/license).
+This project is open source and available under the [MIT License](https://github.com/lasanthamudalige/image-watermarking-desktop-app/blob/main/LICENSE).
